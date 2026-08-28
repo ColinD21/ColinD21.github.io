@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Colin Dollard Technology Services</title>
+
+  <meta
+    name="description"
+    content="Colin Dollard Technology Services provides Windows infrastructure, Active Directory, Microsoft 365, PowerShell, endpoint, and IT infrastructure support."
+  >
+
+  <style>
+    :root {
+      --navy: #0B1F3A;
+      --slate: #334155;
+      --blue: #2563EB;
+      --light-blue: #E0ECFF;
+      --background: #F8FAFC;
+      --white: #FFFFFF;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--slate);
+      background: var(--background);
+      line-height: 1.6;
+    }
+
+    header {
+      color: var(--white);
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(135deg, var(--navy), #123B6D);
+    }
+
+    header h1 {
+      font-size: clamp(2rem, 5vw, 4rem);
+      margin-bottom: 12px;
+    }
+
+    header h2 {
+      color: #93C5FD;
+      font-size: clamp(1.1rem, 3vw, 1.6rem);
+      font-weight: normal;
+      margin-bottom: 18px;
+    }
+
+    header p {
+      margin-bottom: 25px;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 5px;
+      padding: 12px 20px;
+      border-radius: 6px;
+      background: var(--blue);
+      color: var(--white);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .button.outline {
+      background: transparent;
+      border: 1px solid var(--white);
+    }
+
+    main {
+      width: min(1100px, 92%);
+      margin: auto;
+      padding: 55px 0;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h3 {
+      color: var(--navy);
+      font-size: 2rem;
+      margin-bottom: 18px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .profile-photo {
+      width: 125px;
+      height: 125px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 50%;
+      border: 5px solid var(--blue);
+      box-shadow: 0 5px 16px rgba(11, 31, 58, .2);
+      flex-shrink: 0;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+
+    .service {
+      background: var(--white);
+      border-left: 5px solid var(--blue);
+      padding: 22px;
+      box-shadow: 0 4px 15px rgba(11, 31, 58, .08);
+    }
+
+    .service h4 {
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+
+    .contact {
+      background: var(--navy);
+      color: var(--white);
+      padding: 35px;
+      border-radius: 9px;
+    }
+
+    .contact h3 {
+      color: var(--white);
+    }
+
+    .contact a {
+      color: var(--white);
+    }
+
+    .qr-section {
+      text-align: center;
+    }
+
+    .qr-code {
+      width: 145px;
+      height: 145px;
+      margin-top: 15px;
+    }
+
+    footer {
+      padding: 25px;
+      text-align: center;
+      font-size: .9rem;
+    }
+
+    @media (max-width: 650px) {
+      .profile {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    @media print {
+      .button {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Colin Dollard Technology Services</h1>
+    <h2>Reliable Infrastructure. Smarter IT.</h2>
+
+    <p>
+      Windows Infrastructure |
+      Active Directory |
+      Microsoft 365 |
+      PowerShell
+    </p>
+
+    <a class="button" href="mailto:Colindollard21@gmail.com">
+      Email Colin
+    </a>
+
+    <a class="button outline" href="tel:+19737107686">
+      Call 973-710-7686
+    </a>
+
+    <a class="button" href="Colin-Dollard-Resume.pdf" download>
+      Download Resume
+    </a>
+  </header>
+
+  <main>
+
+    <section class="profile">
+      <img
+        src="colin-dollard-photo.jpg"
+        alt="Professional photo of Colin Dollard"
+        class="profile-photo"
+      >
+
+      <div>
+        <h3>Colin Dollard</h3>
+        <p>
+          Systems Administrator specializing in Windows infrastructure,
+          Active Directory, Microsoft 365, PowerShell, endpoint management,
+          networking, and infrastructure support.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Reliable IT Infrastructure Support</h3>
+      <p>
+        Professional systems administration and infrastructure support for
+        Windows enterprise environments, Microsoft technologies, endpoints,
+        networks, and business-critical IT operations.
+      </p>
+    </section>
+
+    <section>
+      <h3>Services Offered</h3>
+
+      <div class="services">
+        <article class="service">
+          <h4>Windows Systems Administration</h4>
+          <p>Windows workstation, server, configuration, and maintenance support.</p>
+        </article>
+
+        <article class="service">
+          <h4>Active Directory &amp; Group Policy</h4>
+          <p>User administration, permissions, authentication, and access troubleshooting.</p>
+        </article>
+
+        <article class="service">
+          <h4>Microsoft 365 &amp; Azure Support</h4>
+          <p>Microsoft cloud platform, account, access, and administration support.</p>
+        </article>
+
+        <article class="service">
+          <h4>DNS, DHCP &amp; Network Troubleshooting</h4>
+          <p>Connectivity, infrastructure services, network equipment, and firewall support.</p>
+        </article>
+
+        <article class="service">
+          <h4>Endpoint Deployment &amp; Migrations</h4>
+          <p>Workstation configuration, refreshes, upgrades, migrations, and device support.</p>
+        </article>
+
+        <article class="service">
+          <h4>PowerShell Automation</h4>
+          <p>Automation for repetitive administrative tasks and infrastructure workflows.</p>
+        </article>
+
+        <article class="service">
+          <h4>Incident Response</h4>
+          <p>Tier 2 and Tier 3 escalation support, issue isolation, and resolution coordination.</p>
+        </article>
+
+        <article class="service">
+          <h4>Technical Documentation</h4>
+          <p>Knowledge-base articles, procedures, incident records, and troubleshooting guides.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="qr-section">
+      <h3>Central Contact Page</h3>
+      <p>
+        Visit the central website for services, contact information, and resume access.
+      </p>
+
+      <img
+        src="contact-qr-code.svg"
+        alt="QR code linking to Colin Dollard Technology Services"
+        class="qr-code"
+      >
+
+      <p>
+        <a href="https://colind21.github.io/" target="_blank">
+          https://colind21.github.io/
+        </a>
+      </p>
+    </section>
+
+    <section class="contact">
+      <h3>Contact Colin Dollard</h3>
+      <p>New Jersey</p>
+      <p>
+        <a href="tel:+19737107686">973-710-7686</a>
+      </p>
+      <p>
+        <a href="mailto:Colindollard21@gmail.com">
+          Colindollard21@gmail.com
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer>
+    © 2026 Colin Dollard Technology Services
+  </footer>
+
+</body>
+</html>
