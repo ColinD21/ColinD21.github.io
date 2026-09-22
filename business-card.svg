@@ -1,0 +1,15 @@
+<!-- QR code: https://colind21.github.io/ -->
+<image href="contact-qr-code.svg"
+       x="1880"
+       y="410"
+       width="135"
+       height="135"
+       preserveAspectRatio="xMidYMid meet"/>
+
+<text x="1902"
+      y="565"
+      fill="#334155"
+      font-family="Arial, sans-serif"
+      font-size="12">
+  Visit online
+</text>
